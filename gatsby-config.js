@@ -2,13 +2,13 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'kiran gorijala',
-    description:
-      'Personal porfolio',
-    siteUrl: 'https://github.com/kiran1-1/kiran_gorijala1', // No trailing slash allowed!
-    image: 'src/images/Klogo.png', // Path to your image you placed in the 'static' folder
+    title: 'Kiran Gorijala',
+    description: 'Personal portfolio',
+    siteUrl: 'https://kiran1-1.github.io/kiran_gorijala1', // Update to your GitHub Pages URL (no trailing slash)
+    image: 'src/images/Klogo.png', // Path to your logo
     twitterUsername: '',
   },
+  pathPrefix: '/kiran_gorijala1',
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
@@ -21,8 +21,8 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'kiran Gorijala',
-        short_name: 'kiran gorijala',
-        start_url: '/',
+        short_name: 'kiran',
+        start_url: '/kiran_gorijala1/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
         display: 'minimal-ui',
@@ -30,6 +30,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {

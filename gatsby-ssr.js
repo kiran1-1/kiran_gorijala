@@ -5,3 +5,12 @@
  */
 
  // You can delete this file if you're not using it
+
+//  exports.onRenderBody = ({ setHeadComponents }) => {
+//     // Add the base tag only in production
+//     if (process.env.NODE_ENV === 'production') {
+//       setHeadComponents([
+//         <base key="base" href="/kiran_gorijala1/" />,
+//       ]);
+//     }
+//   };
