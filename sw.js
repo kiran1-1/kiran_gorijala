@@ -27,21 +27,21 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-95e335e33fe4f16aeda0.js"
+    "url": "webpack-runtime-aa4e7ab7d5b534ce87a0.js"
   },
   {
     "url": "framework-ed0cda9eff3a76ca0adb.js"
   },
   {
-    "url": "app-2379e594e4af05c88211.js"
+    "url": "app-70180e41b9907f06b915.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "81c4d97af11605e0e9f0239f028d5782"
+    "revision": "73a966eb0ed6bbd257ff5c99a915c37e"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "f6f7986a2933f89c5c45ce989bf6cfc4"
+    "revision": "80549f4d954437b357fa2fce958ff1c1"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -146,12 +146,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/kiran_gorijala1`), ``)
+  pathname = pathname.replace(new RegExp(`^/kiran_gorijala`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/kiran_gorijala1/app-2379e594e4af05c88211.js`))) {
+  if (!resources || !(await caches.match(`/kiran_gorijala/app-70180e41b9907f06b915.js`))) {
     return await fetch(event.request)
   }
 
@@ -164,7 +164,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/kiran_gorijala1/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/kiran_gorijala/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
