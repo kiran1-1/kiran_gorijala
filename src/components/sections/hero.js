@@ -71,11 +71,9 @@ const Hero = () => {
       </p>
 
       <p>
-  Hi, I’m Kiran Gorijala! 👋 A recent graduate from {' '}
-  <a href="https://umbc.edu/">UMBC</a> {' '} with expertise in Data Engineering and Machine Learning. 
-  With hands-on experience at {' '}
-  <a href="https://www.ltts.com/">Larsen & Toubro Technology Solutions</a> {' '} and {' '}
-  <a href="https://www.accenture.com/us-en">Accenture</a>, I specialize in building scalable data systems and leveraging Machine Learning to solve real-world problems.
+  Hi, I’m Kiran Gorijala! 👋 A recent 2024 graduate in Data Science with a passion for Data Engineering and Machine Learning.  
+  Currently, I’m working as a Data Engineer at {' '}
+  <a href="https://www.experian.com/">Experian</a> {' '} since August 2023, where I focus on building scalable data pipelines and optimizing data workflows to drive actionable insights.
 </p>
 <p>
   When I’m not coding, I’m exploring Machine Learning to solve real-world problems or building projects to fuel my curiosity. 
