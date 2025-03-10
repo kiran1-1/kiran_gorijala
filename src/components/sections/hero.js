@@ -3,6 +3,8 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { navDelay, loaderDelay } from '@utils';
 import { usePrefersReducedMotion } from '@hooks';
+import {withPrefix } from "gatsby";
+
 
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -82,10 +84,18 @@ const Hero = () => {
 
     </>
   );
+  // const five = (
+  //   <Link
+  //     className="email-link"
+  //     to={process.env.NODE_ENV === "production" ? withPrefix("/archive") : "/archive"}
+  //   >
+  //     Check out my products!
+  //   </Link>
+  // );
   const five = (
     <a
       className="email-link"
-      href="/archive"
+      href={withPrefix("/archive")}
       target="_blank"
       rel="noreferrer">
       Check out my products!

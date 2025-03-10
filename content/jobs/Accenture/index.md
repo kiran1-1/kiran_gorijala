@@ -3,7 +3,7 @@ date: '2020-08-30'
 title: 'Assoicate Data Engineer'
 company: 'Accenture'
 location: 'Remote'
-range: 'July 2019 - August 2023'
+range: 'July 2019 - August 2020'
 url: 'https://www.accenture.com/us-en'
 ---
 

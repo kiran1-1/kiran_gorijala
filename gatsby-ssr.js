@@ -10,7 +10,7 @@
 //     // Add the base tag only in production
 //     if (process.env.NODE_ENV === 'production') {
 //       setHeadComponents([
-//         <base key="base" href="/kiran_gorijala1/" />,
+//         <base key="base" href="/kiran_gorijala/" />,
 //       ]);
 //     }
 //   };

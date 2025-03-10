@@ -146,16 +146,16 @@ const About = () => {
           <div>
           <p>
   With a core specialization in Data Engineering and Machine Learning, I have built scalable data systems and optimized ETL workflows during my professional journey at 
-  <a href="https://www.ltts.com/">L&T Technology Solutions</a> and 
-  <a href="https://www.accenture.com/us-en">Accenture</a>.
+  <a href="https://www.experian.com/">Experian</a> and 
+  <a href="https://www.ltts.com/">L&T Technology Solutions</a>.
 </p>
 
 <p>
-  At <a href="https://www.ltts.com/">L&T Technology Solutions</a>, I processed over 50 million daily records using Azure Databricks and PySpark, reducing data transformation times by 50% while delivering high-impact insights for the aviation industry.
+  At <a href="https://www.experian.com/">Experian</a>, I processed over million daily records using Azure Databricks and PySpark, reducing data transformation times by 50% while delivering high-impact insights for the Finance industry.
 </p>
 
 <p>
-  During my tenure at <a href="https://www.accenture.com/us-en">Accenture</a>, I streamlined real-time data pipelines using Apache Kafka and Snowflake, enabling near-instant analytics and reducing latency by 25%.
+  During my tenure at <a href="https://www.ltts.com/">L&T Technology Solutions</a>, I streamlined real-time data pipelines using Apache Kafka and Snowflake, enabling near-instant analytics and reducing latency by 25%.
 </p>
 
 <p>

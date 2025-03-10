@@ -4,11 +4,11 @@ module.exports = {
   siteMetadata: {
     title: 'Kiran Gorijala',
     description: 'Personal portfolio',
-    siteUrl: 'https://kiran1-1.github.io/kiran_gorijala1', // Update to your GitHub Pages URL (no trailing slash)
-    image: 'src/images/Klogo.png', // Path to your logo
+    siteUrl: 'https://kiran1-1.github.io/kiran_gorijala', // Update to your GitHub Pages URL (no trailing slash)
+    image: '/src/images/Klogo.png', // Path to your logo
     twitterUsername: '',
   },
-  pathPrefix: '/kiran_gorijala1',
+  pathPrefix: '/kiran_gorijala',
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
@@ -22,14 +22,14 @@ module.exports = {
       options: {
         name: 'kiran Gorijala',
         short_name: 'kiran',
-        start_url: '/kiran_gorijala1/',
+        start_url: '/kiran_gorijala/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
         display: 'minimal-ui',
         icon: 'src/images/Klogo.png',
       },
     },
-    `gatsby-plugin-offline`,
+     `gatsby-plugin-offline`,
 
     {
       resolve: `gatsby-source-filesystem`,
