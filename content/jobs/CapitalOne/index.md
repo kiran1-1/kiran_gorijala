@@ -1,10 +1,10 @@
 ---
 date: '2023-01-08'
 title: ' Data Engineer'
-company: 'Experian'
+company: 'Capital One'
 location: 'Remote'
 range: 'August 2023 - present'
-url: 'https://www.experian.com/'
+url: 'https://www.capitalone.com/'
 ---
 
 - Faster Data Processing: Improved how data is handled, cutting processing time by 40%, which helped teams get insights quicker and saved the company $50K per year.

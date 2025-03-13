@@ -73,7 +73,7 @@ const Hero = () => {
       <p>
   Hi, I’m Kiran Gorijala! 👋 A recent 2024 graduate in Data Science with a passion for Data Engineering and Machine Learning.  
   Currently, I’m working as a Data Engineer at {' '}
-  <a href="https://www.experian.com/">Experian</a> {' '} since August 2023, where I focus on building scalable data pipelines and optimizing data workflows to drive actionable insights.
+  <a href="https://www.capitalone.com/">Capital One</a> {' '} since August 2023, where I focus on building scalable data pipelines and optimizing data workflows to drive actionable insights.
 </p>
 <p>
   When I’m not coding, I’m exploring Machine Learning to solve real-world problems or building projects to fuel my curiosity. 
