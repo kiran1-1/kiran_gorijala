@@ -147,7 +147,7 @@ const About = () => {
           <p>
   With a core specialization in Data Engineering and Machine Learning, I have built scalable data systems and optimized ETL workflows during my professional journey at 
   <a href="https://www.capitalone.com/">Capital One</a> and 
-  <a href="https://www.ltts.com/">L&T Technology Solutions</a>.
+  <a href="https://www.ltts.com/">Airbus</a>.
 </p>
 
 <p>
@@ -155,7 +155,7 @@ const About = () => {
 </p>
 
 <p>
-  During my tenure at <a href="https://www.ltts.com/">L&T Technology Solutions</a>, I streamlined real-time data pipelines using Apache Kafka and Snowflake, enabling near-instant analytics and reducing latency by 25%.
+  During my tenure at <a href="https://www.ltts.com/">Airbus</a>, I streamlined real-time data pipelines using Apache Kafka and Snowflake, enabling near-instant analytics and reducing latency by 25%.
 </p>
 
 <p>
