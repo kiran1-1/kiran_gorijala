@@ -1,7 +1,7 @@
 ---
 date: '2023-01-01'
 title: 'Data Engineer'
-company: 'Airbus'<!-- Changed to client company . -->
+company: 'Airbus'
 location: 'Remote'
 range: 'September 2020 - January 2023'
 url: 'https://www.ltts.com/'
