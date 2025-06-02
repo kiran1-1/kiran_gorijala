@@ -3,7 +3,7 @@ date: '2023-01-08'
 title: ' Data Engineer'
 company: 'Capital One'
 location: 'Remote'
-range: 'August 2023 - present'
+range: 'Jan 2024 - present'
 url: 'https://www.capitalone.com/'
 ---
 
